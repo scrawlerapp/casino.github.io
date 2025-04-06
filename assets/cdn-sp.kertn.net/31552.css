@@ -1,0 +1,1165 @@
+:root {
+  --bodyBg: #393a3c;
+  --bodyBg2: #525356;
+  --bodyBg3: #5e6063;
+  --bodyBgHover: #404244;
+  --bodyBg2Hover: #595b5e;
+  --bodyBg3Hover: #65686b;
+  --bodyRGBA: #393a3cb3;
+  --bodyRGBA2: #393a3c80;
+  --bodyRGBA3: #393a3c4d;
+  --bodyTxt: #ffffffe6;
+  --bodyTxt2: #fff9;
+  --bodyTxt3: #fff6;
+  --bodyAccent: #fbb203;
+  --bodyAccentTxt: #000000e6;
+  --bodyBorder: #393a3c;
+  --bodyRadius: 0px;
+  --navbarG: #727478;
+  --navbarBg: #727478;
+  --navbarBg2: #8c8e91;
+  --navbarBg3: #999a9e;
+  --navbarBgHover: #797c80;
+  --navbarBg2Hover: #949698;
+  --navbarBg3Hover: #a1a2a5;
+  --navbarTxt: #ffffffe6;
+  --navbarTxt2: #fff9;
+  --navbarTxt3: #fff6;
+  --navbarRGBA: #727478b3;
+  --navbarAccent: #fbb203;
+  --navbarAccentTxt: #000000e6;
+  --navbarBorder: #393a3c;
+  --navbarRadius: 0px;
+  --sliderG: #404244;
+  --sliderBg: #404244;
+  --sliderBg2: #595b5e;
+  --sliderBg3: #65686b;
+  --sliderBgHover: #474a4c;
+  --sliderBg2Hover: #606366;
+  --sliderBg3Hover: #6c7073;
+  --sliderTxt: #ffffffe6;
+  --sliderTxt2: #fff9;
+  --sliderTxt3: #fff6;
+  --sliderRGBA: #404244b3;
+  --sliderBorder: #393a3c;
+  --sliderAccent: #fbb203;
+  --sliderAccentTxt: #000000e6;
+  --sliderRadius: 0px;
+  --collapseG: #a1a2a4;
+  --collapseBg: #a1a2a4;
+  --collapseBg2: #bbbcbd;
+  --collapseBg3: #c8c8ca;
+  --collapseBgHover: #a9aaac;
+  --collapseBg2Hover: #c3c4c5;
+  --collapseBg3Hover: #d0d0d1;
+  --collapseTxt: #000000e6;
+  --collapseTxt2: #0009;
+  --collapseTxt3: #0006;
+  --collapseRGBA: #a1a2a4b3;
+  --collapseBorder: #393a3c;
+  --collapseAccent: #fbb203;
+  --collapseAccentTxt: #000000e6;
+  --collapseRadius: 0px;
+  --dominantG: #595b5e;
+  --dominantRGBA: #595b5eb3;
+  --dominantRGBA2: #595b5e80;
+  --dominantRGBA3: #595b5e4d;
+  --dominantBg: #595b5e;
+  --dominantBg2: #727478;
+  --dominantBg3: #7e8185;
+  --dominantBgHover: #606366;
+  --dominantBg2Hover: #797c80;
+  --dominantBg3Hover: #86898c;
+  --dominantTxt: #ffffffe6;
+  --dominantTxt2: #fff9;
+  --dominantTxt3: #fff6;
+  --dominantTxtInverse: #262626;
+  --dominantRadius: 0px;
+  --accentBg: #fbb203;
+  --accentBg2: #fdc234;
+  --accentBg3: #fdc94e;
+  --accentBgHover: #fcb711;
+  --accentBg2Hover: #fdc743;
+  --accentBg3Hover: #fdce5d;
+  --accentG: #fbb203;
+  --accentTxt: #000000e6;
+  --accentTxt2: #0009;
+  --accentTxt3: #0006;
+  --buttonG: #33ae33;
+  --buttonBg: #33ae33;
+  --buttonBg2: #4aca4a;
+  --buttonBg3: #5ed05e;
+  --buttonBgHover: #36ba36;
+  --buttonBg2Hover: #56cd56;
+  --buttonBg3Hover: #6ad36a;
+  --buttonTxt: #ffffffe6;
+  --buttonTxt2: #fff9;
+  --buttonTxt3: #fff6;
+  --buttonAccent: #fbb203;
+  --buttonAccentTxt: #000000e6;
+  --buttonBorder: #393a3c;
+  --buttonRadius: 0px;
+  --buttonSecondaryG: #404244;
+  --buttonSecondaryBg: #404244;
+  --buttonSecondaryBg2: #595b5e;
+  --buttonSecondaryBg3: #65686b;
+  --buttonSecondaryBgHover: #474a4c;
+  --buttonSecondaryBg2Hover: #606366;
+  --buttonSecondaryBg3Hover: #6c7073;
+  --buttonSecondaryTxt: #ffffffe6;
+  --buttonSecondaryTxt2: #fff9;
+  --buttonSecondaryTxt3: #fff6;
+  --buttonSecondaryAccent: #fbb203;
+  --buttonSecondaryAccentTxt: #000000e6;
+  --buttonSecondaryBorder: #393a3c;
+  --buttonSecondaryRadius: 0px;
+  --inputG: #5e5f60;
+  --inputBg: #5e5f60;
+  --inputBg2: #77787a;
+  --inputBg3: #848587;
+  --inputBgHover: #666768;
+  --inputBg2Hover: #7f8082;
+  --inputBg3Hover: #8c8d8f;
+  --inputTxt: #ffffffe6;
+  --inputTxt2: #fff9;
+  --inputTxt3: #fff6;
+  --inputAccent: #fbb203;
+  --inputAccentTxt: #000000e6;
+  --inputRadius: 0px;
+  --inputBorder: #393a3c;
+  --inputSecondaryG: #7f8082;
+  --inputSecondaryBg: #7f8082;
+  --inputSecondaryBg2: #999a9b;
+  --inputSecondaryBg3: #a6a6a8;
+  --inputSecondaryBgHover: #87888a;
+  --inputSecondaryBg2Hover: #a1a2a3;
+  --inputSecondaryBg3Hover: #aeaeb0;
+  --inputSecondaryTxt: #ffffffe6;
+  --inputSecondaryTxt2: #fff9;
+  --inputSecondaryTxt3: #fff6;
+  --inputSecondaryAccent: #fbb203;
+  --inputSecondaryAccentTxt: #000000e6;
+  --inputSecondaryRadius: 0px;
+  --inputSecondaryBorder: #393a3c;
+  --headerG: #737476;
+  --headerBg: #737476;
+  --headerBg2: #8d8e8f;
+  --headerBg3: #999a9c;
+  --headerBgHover: #7b7c7e;
+  --headerBg2Hover: #959697;
+  --headerBg3Hover: #a1a2a4;
+  --headerTxt: #ffffffe6;
+  --headerTxt2: #fff9;
+  --headerTxt3: #fff6;
+  --headerAccent: #fbb203;
+  --headerAccentTxt: #000000e6;
+  --headerBorder: #393a3c;
+  --headerRadius: 0px;
+  --subHeaderG: #666769;
+  --subHeaderBg: #666769;
+  --subHeaderBg2: #7f8083;
+  --subHeaderBg3: #8c8d8f;
+  --subHeaderBgHover: #6e6f71;
+  --subHeaderBg2Hover: #87888a;
+  --subHeaderBg3Hover: #949597;
+  --subHeaderTxt: #ffffffe6;
+  --subHeaderTxt2: #fff9;
+  --subHeaderTxt3: #fff6;
+  --subHeaderAccent: #fbb203;
+  --subHeaderAccentTxt: #000000e6;
+  --subHeaderBorder: #393a3c;
+  --subHeaderRadius: 0px;
+  --eventG: #555657;
+  --eventBg: #555657;
+  --eventBg2: #6e6f71;
+  --eventBg3: #7b7c7e;
+  --eventBgHover: #5d5e5f;
+  --eventBg2Hover: #767779;
+  --eventBg3Hover: #838486;
+  --eventTxt: #ffffffe6;
+  --eventTxt2: #fff9;
+  --eventTxt3: #fff6;
+  --eventAccent: #fbb203;
+  --eventAccentTxt: #000000e6;
+  --eventBorder: #393a3c;
+  --eventRadius: 0px;
+  --modalG: #727478;
+  --modalBg: #727478;
+  --modalBg2: #8c8e91;
+  --modalBg3: #999a9e;
+  --modalBgHover: #797c80;
+  --modalBg2Hover: #949698;
+  --modalBg3Hover: #a1a2a5;
+  --modalTxt: #ffffffe6;
+  --modalTxt2: #fff9;
+  --modalTxt3: #fff6;
+  --modalAccent: #fbb203;
+  --modalAccentTxt: #000000e6;
+  --modalRadius: 0px;
+  --modalBorder: #393a3c;
+  --oddG: #404244;
+  --oddBg: #404244;
+  --oddBg2: #595b5e;
+  --oddBg3: #65686b;
+  --oddBgHover: #474a4c;
+  --oddBg2Hover: #606366;
+  --oddBg3Hover: #6c7073;
+  --oddTxt: #ffffffe6;
+  --oddTxt2: #fff9;
+  --oddTxt3: #fff6;
+  --oddAccent: #fbb203;
+  --oddAccentTxt: #000000e6;
+  --oddRadius: 0px;
+  --oddBorder: #393a3c;
+  --oddActiveG: #fbb203;
+  --oddActiveBg: #fbb203;
+  --oddActiveBg2: #fdc234;
+  --oddActiveBg3: #fdc94e;
+  --oddActiveBgHover: #fcb711;
+  --oddActiveBg2Hover: #fdc743;
+  --oddActiveBg3Hover: #fdce5d;
+  --oddActiveTxt: #000000e6;
+  --oddActiveTxt2: #0009;
+  --oddActiveTxt3: #0006;
+  --oddActiveAccent: #fbb203;
+  --oddActiveAccentTxt: #000000e6;
+  --oddActiveRadius: 0px;
+  --oddActiveBorder: #393a3c;
+  --marketHeaderG: #404244;
+  --marketHeaderBg: #404244;
+  --marketHeaderBg2: #595b5e;
+  --marketHeaderBg3: #65686b;
+  --marketHeaderBgHover: #474a4c;
+  --marketHeaderBg2Hover: #606366;
+  --marketHeaderBg3Hover: #6c7073;
+  --marketHeaderTxt: #ffffffe6;
+  --marketHeaderTxt2: #fff9;
+  --marketHeaderTxt3: #fff6;
+  --marketHeaderAccent: #fbb203;
+  --marketHeaderAccentTxt: #000000e6;
+  --marketHeaderRadius: 0px;
+  --marketHeaderBorder: #393a3c;
+  --showMoreG: #404244;
+  --showMoreBg: #404244;
+  --showMoreBg2: #595b5e;
+  --showMoreBg3: #65686b;
+  --showMoreBgHover: #474a4c;
+  --showMoreBg2Hover: #606366;
+  --showMoreBg3Hover: #6c7073;
+  --showMoreTxt: #ffffffe6;
+  --showMoreTxt2: #fff9;
+  --showMoreTxt3: #fff6;
+  --showMoreAccent: #fbb203;
+  --showMoreAccentTxt: #000000e6;
+  --showMoreRadius: 0px;
+  --showMoreBorder: #393a3c;
+  --tabG: #5e5e5e;
+  --tabBg: #5e5e5e;
+  --tabBg2: #777;
+  --tabBg3: #848484;
+  --tabBgHover: #666;
+  --tabBg2Hover: #7f7f7f;
+  --tabBg3Hover: #8c8c8c;
+  --tabTxt: #ffffffe6;
+  --tabTxt2: #fff9;
+  --tabTxt3: #fff6;
+  --tabAccent: #fbb203;
+  --tabAccentTxt: #000000e6;
+  --tabRadius: 0px;
+  --tabBorder: #393a3c;
+  --tabActiveG: #666769;
+  --tabActiveBg: #666769;
+  --tabActiveBg2: #7f8083;
+  --tabActiveBg3: #8c8d8f;
+  --tabActiveBgHover: #6e6f71;
+  --tabActiveBg2Hover: #87888a;
+  --tabActiveBg3Hover: #949597;
+  --tabActiveTxt: #ffffffe6;
+  --tabActiveTxt2: #fff9;
+  --tabActiveTxt3: #fff6;
+  --tabActiveAccent: #fbb203;
+  --tabActiveAccentTxt: #000000e6;
+  --tabActiveRadius: 0px;
+  --tabActiveBorder: #393a3c;
+  --tabSecondaryActiveBg: #7f7f7f;
+  --tabSecondaryActiveBg2: #989898;
+  --tabSecondaryActiveBg3: #a5a5a5;
+  --tabSecondaryActiveBgHover: #878787;
+  --tabSecondaryActiveBg2Hover: #a0a0a0;
+  --tabSecondaryActiveBg3Hover: #adadad;
+  --tabSecondaryActiveTxt: #ffffffe6;
+  --tabSecondaryActiveTxt2: #fff9;
+  --tabSecondaryActiveTxt3: #fff6;
+  --tabSecondaryActiveAccent: #fbb203;
+  --tabSecondaryActiveAccentTxt: #000000e6;
+  --tabSecondaryActiveRadius: 0px;
+  --tabSecondaryActiveBorder: #393a3c;
+  --filterG: #7f8082;
+  --filterBg: #7f8082;
+  --filterBg2: #999a9b;
+  --filterBg3: #a6a6a8;
+  --filterBgHover: #87888a;
+  --filterBg2Hover: #a1a2a3;
+  --filterBg3Hover: #aeaeb0;
+  --filterTxt: #ffffffe6;
+  --filterTxt2: #fff9;
+  --filterTxt3: #fff6;
+  --filterAccent: #fbb203;
+  --filterAccentTxt: #000000e6;
+  --filterRadius: 0px;
+  --filterBorder: #393a3c;
+  --menu_1G: #727478;
+  --menu_1Bg: #727478;
+  --menu_1Bg2: #8c8e91;
+  --menu_1Bg3: #999a9e;
+  --menu_1BgHover: #797c80;
+  --menu_1Bg2Hover: #949698;
+  --menu_1Bg3Hover: #a1a2a5;
+  --menu_1Txt: #ffffffe6;
+  --menu_1Txt2: #fff9;
+  --menu_1Txt3: #fff6;
+  --menu_1Accent: #fbb203;
+  --menu_1AccentTxt: #000000e6;
+  --menu_1Radius: 0px;
+  --menu_1Border: #393a3c;
+  --menu_2G: #797c80;
+  --menu_2Bg: #797c80;
+  --menu_2Bg2: #939699;
+  --menu_2Bg3: #a0a2a5;
+  --menu_2BgHover: #818488;
+  --menu_2Bg2Hover: #9b9ea0;
+  --menu_2Bg3Hover: #a8aaac;
+  --menu_2Txt: #ffffffe6;
+  --menu_2Txt2: #fff9;
+  --menu_2Txt3: #fff6;
+  --menu_2Accent: #fbb203;
+  --menu_2AccentTxt: #000000e6;
+  --menu_2Radius: 0px;
+  --menu_2Border: #393a3c;
+  --menu_3G: #7e8185;
+  --menu_3Bg: #7e8185;
+  --menu_3Bg2: #989b9e;
+  --menu_3Bg3: #a5a7aa;
+  --menu_3BgHover: #86898c;
+  --menu_3Bg2Hover: #a0a3a5;
+  --menu_3Bg3Hover: #adafb1;
+  --menu_3Txt: #ffffffe6;
+  --menu_3Txt2: #fff9;
+  --menu_3Txt3: #fff6;
+  --menu_3Accent: #fbb203;
+  --menu_3AccentTxt: #000000e6;
+  --menu_3Radius: 0px;
+  --menu_3Border: #393a3c;
+  --tooltipG: #727478;
+  --tooltipBg: #727478;
+  --tooltipBg2: #8c8e91;
+  --tooltipBg3: #999a9e;
+  --tooltipBgHover: #797c80;
+  --tooltipBg2Hover: #949698;
+  --tooltipBg3Hover: #a1a2a5;
+  --tooltipTxt: #ffffffe6;
+  --tooltipTxt2: #fff9;
+  --tooltipTxt3: #fff6;
+  --tooltipAccent: #fbb203;
+  --tooltipAccentTxt: #000000e6;
+  --tooltipRadius: 0px;
+  --tooltipBorder: #393a3c;
+  --betSlipStakeBg: #797c80;
+  --betSlipStakeTxt: #ffffffe6;
+  --betSlipStakeTxt2: #fff9;
+  --betSlipButtonBg: #797c80;
+  --betSlipButtonTxt: #ffffffe6;
+  --betSlipTabBg: #797c80;
+  --betSlipTabG: #797c80;
+  --betSlipTabTxt: #ffffffe6;
+  --betSlipTabTxt2: #fff9;
+  --betSlipTabBorder: #393a3c;
+  --betSlipTabRadius: 0px;
+  --betSlipTabActiveBg: #797c80;
+  --betSlipTabActiveG: #797c80;
+  --betSlipTabActiveTxt: #ffffffe6;
+  --betSlipTabActiveTxt2: #fff9;
+  --betSlipTabActiveBorder: #393a3c;
+  --betSlipTabActiveRadius: 0px
+}
+
+#dm-main-container.dm__wrapper,
+body {
+  /* background: var(--bodyBg) !important; */
+  /* color: var(--bodyTxt) !important */
+}
+
+#dm-main-container .dm-color--akcent {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__main-menu {
+  background: var(--navbarG) !important;
+  color: var(--navbarTxt2) !important
+}
+
+#dm-main-container .dm__main-menu>a,
+#dm-main-container .dm__main-menu>span {
+  color: var(--navbarTxt2) !important
+}
+
+#dm-main-container .dm__main-menu>a.active {
+  color: var(--navbarAccent) !important
+}
+
+#dm-main-container .dm__banner-slide--odd-container {
+  background: var(--bodyBg2) !important
+}
+
+#dm-main-container .dm__banner-slides--pagination {
+  background: var(--bodyBg) !important
+}
+
+#dm-main-container .dm__banner-slides--pagination-item {
+  background: var(--dominantBg) !important
+}
+
+#dm-main-container .dm__banner-slides--pagination-item.gKuKSN {
+  background: var(--accentBg) !important
+}
+
+#dm-main-container .dm__slider {
+  background: var(--sliderG) !important
+}
+
+#dm-main-container .dm__slider-shadow {
+  background: linear-gradient(to right, #0000 0, var(--sliderBg) 100%)
+}
+
+#dm-main-container .dm__slider-container--shadow:before {
+  background: linear-gradient(to right, #0000 0, var(--sliderBg) 100%) !important
+}
+
+#dm-main-container .dm__slider-container--inline {
+  background: var(--tabBg) !important;
+  border-bottom: 2px solid var(--tabBorder) !important
+}
+
+#dm-main-container .dm__slider-container--inline .dm__slider-item.dm__slider-item_active {
+  background: var(--tabActiveG) !important;
+  color: var(--tabActiveTxt) !important
+}
+
+#dm-main-container .dm__checkbox__text,
+#dm-main-container .dm__font-checkbox {
+  color: var(--dominantTxt2) !important
+}
+
+#dm-main-container .dm__scores-akcented {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm-count-bubble {
+  background-color: var(--tabTxt2) !important;
+  color: var(--tabBg) !important
+}
+
+#dm-main-container .dm__cashout_badge {
+  background-color: var(--bodyBg2) !important;
+  color: var(--bodyTxt2) !important
+}
+
+#dm-main-container .dm__collapse__home {
+  background: var(--collapseG) !important;
+  border-color: var(--collapseBorder) !important;
+  color: var(--collapseTxt) !important
+}
+
+#dm-main-container .dm__collapse__home .dm__ico_arrow {
+  color: var(--collapseTxt3) !important
+}
+
+#dm-main-container .dm__homepage__sport_section__item {
+  background: var(--headerG) !important;
+  color: var(--headerTxt) !important
+}
+
+#dm-main-container .dm__homepage__sport_section__market_head,
+#dm-main-container .dm__homepage__sport_section__market_head .dm--input-select-value {
+  background: var(--marketHeaderBg) !important;
+  color: var(--marketHeaderTxt) !important
+}
+
+#dm-main-container .dm__homepage__multibet_heading,
+#dm-main-container .dm__homepage__sport_tournament_heading {
+  background: var(--subHeaderG) !important;
+  color: var(--subHeaderTxt2) !important
+}
+
+#dm-main-container .dm__homepage__multibet_heading {
+  border-bottom: 1px solid var(--subHeaderBorder) !important;
+  border-top: 1px solid var(--subHeaderBorder) !important;
+  margin-bottom: 0
+}
+
+#dm-main-container .dm__multibet_odd,
+#dm-main-container .dm__odd {
+  background: var(--oddG) !important;
+  border-radius: var(--oddRadius);
+  color: var(--oddTxt) !important
+}
+
+#dm-main-container .dm__odd .dm__odd--name {
+  color: var(--oddTxt2)
+}
+
+#dm-main-container .dm__odd.dm__odd-active {
+  background: var(--oddActiveG) !important;
+  border-radius: var(--oddActiveRadius);
+  color: var(--oddActiveTxt) !important
+}
+
+#dm-main-container .dm__odd.dm__odd-active .dm__odd--name {
+  color: var(--oddActiveTxt2)
+}
+
+#dm-main-container .dm__homepage__sport_events,
+#dm-main-container .dm__homepage__sport_events_cont {
+  background: var(--bodyBg) !important
+}
+
+#dm-main-container .dm__single_game,
+#dm-main-container .dm__single_game_cont {
+  background: var(--eventG) !important;
+  color: var(--eventTxt) !important
+}
+
+#dm-main-container .dm__single_game__link,
+#dm-main-container .dm__single_game__link .dm__scores {
+  color: var(--eventTxt) !important
+}
+
+#dm-main-container .dm--tv,
+#dm-main-container .dm__h2h,
+#dm-main-container .dm__more,
+#dm-main-container .dm__time {
+  color: var(--eventTxt2) !important
+}
+
+#dm-main-container .dm__font_cup {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dgm_favorite {
+  color: var(--eventTxt2)
+}
+
+#dm-main-container .dgm_favorite.dg_icon_star_filled {
+  color: var(--accentBg)
+}
+
+#dm-main-container .dm__custom_select__wrapper--live {
+  background-color: var(--headerBg) !important;
+  color: var(--headerTxt2) !important
+}
+
+#dm-main-container .dm__custom_select__wrapper--live .dm__font_arrows {
+  color: var(--headerTxt2) !important
+}
+
+#dm-main-container .dm__radio-slider {
+  background-color: var(--headerTxt2) !important
+}
+
+#dm-main-container .dm__radio-slider:after {
+  background-color: var(--headerTxt) !important
+}
+
+#dm-main-container .dm__radio-slider-cont .dm__radio-hide:checked+.dm__radio-slider:after {
+  background-color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__live_game_notice {
+  background-color: var(--bodyBg) !important;
+  color: var(--bodyTxt2) !important
+}
+
+#dm-main-container .dm__custom_select__button {
+  background-color: var(--dominantBg2) !important;
+  color: var(--dominantTxt) !important
+}
+
+#dm-main-container .dm--tabs-event.dm__market_collapser,
+#dm-main-container .dm__tabs_container {
+  background-color: var(--tabBg) !important;
+  border-bottom-color: var(--tabActiveBg) !important
+}
+
+#dm-main-container .dm__tabs_container .dm__tabs__item {
+  color: var(--tabTxt2) !important
+}
+
+#dm-main-container .dm__tabs_container .dm__tabs__item.dm__tabs__item-active {
+  background-color: var(--tabActiveBg) !important;
+  color: var(--tabActiveTxt) !important
+}
+
+#dm-main-container .dm__tabs_container .dm__tabs__item.dm__tabs__item-active .dm-count-bubble {
+  background-color: var(--accentBg) !important;
+  color: var(--accentTxt) !important
+}
+
+#dm-main-container .dm__tabs_container .dm__tabs__item.dm__tabs__item-active .dm__calendar_tab_day,
+#dm-main-container .dm__tabs_container .dm__tabs__item.dm__tabs__item-active .dm__calendar_tab_events {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm--tabs-event.dm__market_collapser .dm__font_arrows,
+#dm-main-container .dm__tabs_container .dm__calendar_tab_day,
+#dm-main-container .dm__tabs_container .dm__calendar_tab_events,
+#dm-main-container .dm__tabs_container .dm__tabs__item .dm__tab_sub_name {
+  color: var(--tabTxt2) !important
+}
+
+#dm-main-container .dm__image_header .dm--color-akcent {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__image_header-devider {
+  border-color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__image_header .dm__image_header_comments_cont .dm--akcented,
+#dm-main-container .dm__image_header__score .dm--akcented {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__market {
+  background-color: var(--bodyBg) !important
+}
+
+#dm-main-container .dm__market_collapser {
+  background-color: var(--headerG) !important;
+  border-bottom: 1px solid var(--headerBorder) !important;
+  color: var(--headerTxt) !important;
+  margin-bottom: 0 !important
+}
+
+#dm-main-container .dm__odd-grid {
+  background-color: var(--eventBg) !important;
+  border-color: var(--eventBg) !important
+}
+
+#dm-main-container .dm__championship__header {
+  background-color: var(--menu_1Bg) !important;
+  color: var(--menu_1Txt2) !important
+}
+
+#dm-main-container .dm__go_back {
+  fill: var(--menu_1Txt2) !important
+}
+
+#dm-main-container .dm__event_row-championships {
+  background-color: var(--menu_1G) !important;
+  color: var(--menu_1Txt) !important
+}
+
+#dm-main-container .dm__event_row-championships .dm__event_row_c {
+  color: var(--menu_1Txt2) !important
+}
+
+#dm-main-container .dm__event_row-flags {
+  background-color: var(--menu_2G) !important;
+  color: var(--menu_2Txt) !important
+}
+
+#dm-main-container .dm__event_row-flags .dm__ico_arrow {
+  color: var(--menu_2Txt2) !important
+}
+
+#dm-main-container .dm__event_row-flags-sub {
+  background-color: var(--menu_3G) !important;
+  color: var(--menu_3Txt) !important
+}
+
+#dm-main-container .dm__event_row-flags-sub .dm__event_row_c {
+  color: var(--menu_3Txt2) !important
+}
+
+#dm-main-container .dm__popup-bg {
+  background-color: var(--dominantBg) !important;
+  color: var(--dominantTxt2) !important
+}
+
+#dm-main-container .dm__popup-header {
+  background-color: var(--dominantBg2) !important;
+  color: var(--dominantTxt) !important
+}
+
+#dm-main-container .dm--input,
+#dm-main-container .dm--input-calendar input,
+#dm-main-container .dm--input-imit,
+#dm-main-container .dm__keyboard_trigger {
+  background-color: var(--inputBg) !important;
+  color: var(--inputTxt) !important
+}
+
+#dm-main-container .dm--input-calendar input::placeholder,
+#dm-main-container .dm--input::placeholder {
+  color: var(--inputTxt2) !important
+}
+
+#dm-main-container .dm--input-calendar:after,
+#dm-main-container .dm--input-select_wrapper:after,
+#dm-main-container .dm__input_wrapper .dm__input_ico {
+  border-top-color: var(--inputTxt) !important
+}
+
+#dm-main-container .dm__betslip_btn {
+  background-color: #fdfcfc;
+  border-right-color: var(--accentBg) !important;
+  color: dimgray
+}
+
+#dm-main-container .dm__betslip_btn__count {
+  background-color: var(--accentBg) !important;
+  border-color: #fff;
+  color: var(--accentTxt) !important
+}
+
+#dm-main-container .dm__betslip_btn__odds .dm__total_odds {
+  color: #333
+}
+
+#dm-main-container .dm__betslip__bet {
+  background-color: var(--betSlipStakeBg) !important
+}
+
+#dm-main-container .dm__betslip__bet__name .dm__tn {
+  color: var(--betSlipStakeTxt) !important
+}
+
+#dm-main-container .dm__betslip__bet__remove,
+#dm-main-container .dm__betslip__stake_name {
+  color: var(--betSlipStakeTxt2) !important
+}
+
+#dm-main-container .dm__betslip_tour {
+  background-color: var(--accentBg) !important;
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__betslip__bet__factor .dm__bf {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__betslip_stake_trigger_panel {
+  background-color: var(--headerBg) !important;
+  color: var(--headerTxt2) !important
+}
+
+#dm-main-container .dm__betslip_stake_trigger_text .dm__dtt__number {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__btn--betslip {
+  background-color: var(--betSlipButtonBg) !important;
+  color: var(--betSlipButtonTxt) !important
+}
+
+#dm-main-container .dm--possible-winning-count {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__btn--keyboard {
+  background-color: var(--betSlipButtonBg) !important;
+  color: var(--betSlipButtonTxt) !important
+}
+
+#dm-main-container .dm--keyboard--betslip .dm__keyboard .dm__keyboard__row .dm__btn1 {
+  border-color: var(--dominantBg) !important
+}
+
+#dm-main-container .dm__system_calc__variant_number {
+  color: var(--dominantTxt) !important
+}
+
+#dm-main-container .dm__system_calc__footer-item {
+  background-color: var(--dominantBg2) !important;
+  color: var(--dominantTxt2) !important
+}
+
+#dm-main-container .dm__system_calc__footer-item .dm-table-r {
+  color: var(--dominantTxt) !important
+}
+
+#dm-main-container .dm__system_calc__footer-item .dm-table-r.dm--akcent {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__betslip--single {
+  background: var(--eventG) !important;
+  color: var(--eventTxt) !important
+}
+
+#dm-main-container .dm__issue_cont {
+  color: var(--dominantTxt2) !important
+}
+
+#dm-main-container .dm__mybets-res-header {
+  background-color: var(--headerBg) !important;
+  border-bottom-color: var(--accentBg) !important;
+  color: var(--headerTxt2) !important
+}
+
+#dm-main-container .dm__mybets-res-header .dm-table-l {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__mybets__item {
+  background-color: var(--dominantBg) !important
+}
+
+#dm-main-container .dm__mybets__item .dm__btn--secundary {
+  background: var(--inputG) !important;
+  color: var(--inputTxt) !important
+}
+
+#dm-main-container .dm__mybets__button_cont .dm__btn--confirm {
+  background: var(--accentBg2) !important;
+  color: var(--accentTxt) !important
+}
+
+#dm-main-container .dm__info-row,
+#dm-main-container .dm__mybets-res-row {
+  background-color: var(--bodyBg) !important;
+  color: var(--bodyTxt2) !important
+}
+
+#dm-main-container .dm__info-row--right,
+#dm-main-container .dm__mybets-res-row .dm-table-r {
+  color: var(--bodyTxt) !important
+}
+
+#dm-main-container .dm__mybets-res-row .dm-table-r.dm--akcent {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__mybets_game__info {
+  background: var(--eventG) !important;
+  color: var(--eventTxt) !important
+}
+
+#dm-main-container .dm__mybets_game__info .dm--akcented {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__mybets_game__info .dm__result_more__score,
+#dm-main-container .dm__mybets_game__info i,
+#dm-main-container .dm__mybets_game__team {
+  color: var(--eventTxt) !important
+}
+
+#dm-main-container .dm__mybets_game__date {
+  color: var(--eventTxt2) !important
+}
+
+#dm-main-container .dm__mybets__more {
+  color: var(--dominantTxt2) !important
+}
+
+#dm-main-container .dm__mybets__more .dm--svg-icon {
+  fill: var(--dominantTxt2) !important
+}
+
+#dm-main-container .dm__btn--body {
+  background: var(--accentG) !important;
+  color: var(--accentTxt) !important
+}
+
+#dm-main-container .dm__btn--body a {
+  color: var(--accentTxt) !important
+}
+
+#dm-main-container .dm__btn--history {
+  background-color: var(--accentBg2) !important;
+  color: var(--accentTxt) !important
+}
+
+#dm-main-container .dm__btn-bet {
+  background-color: var(--accentBg) !important;
+  color: var(--accentTxt) !important
+}
+
+#dm-main-container .dm__btn--secundary {
+  background-color: var(--bodyBg) !important;
+  color: var(--bodyTxt2) !important
+}
+
+#dm-main-container .dm__btn--confirm {
+  background-color: var(--accentBg) !important;
+  color: var(--accentTxt) !important
+}
+
+#dm-main-container .dm__btn--cancel {
+  background-color: #d60000 !important;
+  color: #fff !important
+}
+
+#dm-main-container .dm__btn--ternary {
+  background-color: var(--bodyBg2) !important;
+  color: var(--bodyTxt) !important
+}
+
+#dm-main-container .dm__btn--random {
+  background-color: #666 !important;
+  color: #ccc !important
+}
+
+#dm-main-container .dm__btn--footer {
+  background-color: #333 !important;
+  color: #ccc !important
+}
+
+#dm-main-container .dm__btn--footer2 {
+  background-color: initial !important;
+  border: 1px solid #333 !important;
+  color: #ccc !important
+}
+
+#dm-main-container .dm__calendar-row {
+  background: var(--eventBg) !important;
+  color: var(--eventTxt) !important
+}
+
+#dm-main-container .dm__calendar-row.active {
+  background: var(--eventBg2) !important
+}
+
+#dm-main-container .dm__calendar-row>i {
+  color: var(--eventTxt) !important
+}
+
+#dm-main-container .dm__calendar-row__champ-name {
+  color: var(--eventTxt2) !important
+}
+
+#dm-main-container .dm__calendar__time {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__filter_btn,
+#dm-main-container .dm__refresh .dm__font:after {
+  fill: var(--accentTxt) !important;
+  background-color: var(--accentBg) !important;
+  color: var(--accentTxt) !important
+}
+
+#dm-main-container .dm__result_more_item p:nth-child(odd) {
+  background-color: var(--eventBg) !important
+}
+
+#dm-main-container .dm__tournament-bg {
+  background-color: var(--bodyBg) !important
+}
+
+#dm-main-container .dm__promo_logo {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm_collapser_with_text {
+  background-color: var(--menu_1Bg) !important;
+  color: var(--menu_1Txt2) !important
+}
+
+#dm-main-container .dm_collapser_with_text svg {
+  fill: var(--menu_1Txt2) !important
+}
+
+#dm-main-container .dm_collapser_with_text_header {
+  background-color: var(--bodyBg) !important;
+  color: var(--bodyTxt2) !important
+}
+
+#dm-main-container .dm__tournament-prize {
+  background-color: var(--accentBg) !important;
+  color: var(--accentTxt) !important
+}
+
+#dm-main-container .dm__multibet_bonus_count {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__multibet_total_container {
+  background-color: var(--headerBg) !important;
+  color: var(--headerTxt) !important
+}
+
+#dm-main-container .dm__multibet_total_factor {
+  color: var(--accentBg) !important
+}
+
+#dm-main-container .dm__multibet_btn {
+  background: var(--buttonG) !important;
+  color: var(--buttonTxt) !important
+}
+
+#dm-main-container .dm__single_game_ico {
+  color: var(--eventTxt) !important
+}
+
+#dm-main-container .dm__active-serve-icon>span {
+  background: var(--accentBg) !important
+}
+
+#dm-main-container .dm__search {
+  background-color: var(--dominantBg) !important;
+  color: var(--dominantTxt2) !important
+}
+
+#dm-main-container .dm__search-input {
+  background-color: var(--inputBg) !important;
+  color: var(--inputTxt) !important
+}
+
+#dm-main-container .dm__search-input--icon,
+#dm-main-container .dm__search-input::placeholder {
+  color: var(--inputTxt2) !important
+}
+
+.dm__secondary-menu {
+  background-color: var(--bodyRGBA) !important
+}
+
+.dm__secondary-menu ul li a {
+  background: var(--bodyBg) !important;
+  color: var(--bodyTxt) !important
+}
+
+#dm-main-container .dm__live_event .dm--tabs-live {
+  background-color: var(--bodyBg) !important;
+  margin-top: 4px
+}
+
+#dm-main-container .dm__single_game_cont {
+  margin-bottom: 0
+}
+
+#dm-main-container .dm__single_game_cont:not(:last-child) {
+  border-bottom: 1px solid var(--eventBorder)
+}
+
+#dm-main-container .dm__homepage__sport_tournament_heading {
+  border-bottom: 1px solid var(--subHeaderBorder);
+  border-top: 1px solid var(--subHeaderBorder);
+  margin: 0
+}
+
+#dm-main-container .dm__event_row-championships {
+  border-bottom: 1px solid var(--menu_1Border);
+  margin: 0
+}
+
+#dm-main-container .dm__event_row-flags {
+  border-bottom: 1px solid var(--menu_2Border);
+  margin: 0
+}
+
+#dm-main-container .dm__event_row-flags-sub {
+  border-bottom: 1px solid var(--menu_3Border);
+  margin: 0
+}
+
+#dm-main-container .dm__btn {
+  background: var(--buttonBg);
+  border-radius: var(--inputRadius) !important;
+  color: var(--buttonTxt)
+}
+
+#dm-main-container .dm__slider-container--inline .dm__slider-item,
+#dm-main-container .dm__tabs__item {
+  border-top-left-radius: var(--tabRadius);
+  border-top-right-radius: var(--tabRadius)
+}
+
+#dm-main-container .dm__slider-container--inline .dm__slider-item.dm__slider-item_active,
+#dm-main-container .dm__tabs__item.dm__tabs__item-active {
+  border-top-left-radius: var(--tabActiveRadius);
+  border-top-right-radius: var(--tabActiveRadius)
+}
+
+#dm-main-container .dm__betslip .dm__tabs_container .dm__tabs__item.dm__tabs__item-active {
+  background: var(--betSlipTabActiveG) !important;
+  border-top-left-radius: var(--betSlipTabActiveRadius) !important;
+  border-top-right-radius: var(--betSlipTabActiveRadius) !important;
+  color: var(--betSlipTabActiveTxt) !important
+}
+
+#dm-main-container .dm__betslip .dm__tabs_container .dm__tabs__item {
+  background: var(--betSlipTabG) !important;
+  border-top-left-radius: var(--betSlipTabRadius) !important;
+  border-top-right-radius: var(--betSlipTabRadius) !important;
+  color: var(--betSlipTabTxt2) !important
+}
+
+.lc_root,
+.lc_wrapper,
+.lc_wrapper .lc_cship_header {
+  background: var(--dominantBg) !important;
+  color: var(--dominantTxt) !important
+}
+
+.lc_wrapper .lc_teamname.text_1,
+.lc_wrapper .lc_teams_header_mid.text_2 {
+  color: var(--dominantTxt) !important
+}
+
+.lc_ruller .lc_ruller_sector,
+.lc_wrapper .lc_ns.text_2,
+.lc_wrapper .lc_ns.text_align_left {
+  color: var(--dominantTxt2) !important
+}
+
+.lc_wrapper .lc_ruller,
+.lc_wrapper .lc_ruller .lc_ruller_sector {
+  border-color: var(--dominantTxt2) !important
+}
+
+.lc_wrapper .lc_ruller .lc_ruller_line,
+.lc_wrapper .lc_ruller .lc_ruller_progress {
+  background-color: var(--dominantTxt2) !important
+}
+
+.lc_wrapper .lc_teams_header {
+  background: var(--dominantBg2) !important;
+  color: var(--dominantTxt) !important
+}
+
+.lc_wrapper .lc_badge.text_akcent {
+  background: var(--dominantBg) !important;
+  color: var(--accentBg) !important
+}
+
+.lc_root .score {
+  background: var(--dominantBg2) !important;
+  color: var(--accentBg) !important
+}
+
+.lc_stat_wrapper,
+.lc_wrapper .lc_field_footer.background_1,
+.lc_wrapper .lc_info_header.background_1,
+.lc_wrapper .lc_tabs_wrapper.background_1 {
+  background: var(--dominantBg) !important;
+  color: var(--dominantTxt) !important
+}
+
+.lc_wrapper .lc_btn,
+.lc_wrapper .lc_btn.lc_btn_body {
+  background: var(--buttonSecundaryG) !important;
+  color: var(--buttonSecundaryTxt) !important
+}
+
+.lc_wrapper .lc_btn.lc_btn_body.active,
+.lc_wrapper .lc_btn.lc_btn_body:hover,
+.lc_wrapper .lc_btn:hover {
+  background: var(--buttonSecundaryBg2) !important
+}
+
+.scout_football .lc_stat_row {
+  border-color: var(--bodyBg) !important
+}
